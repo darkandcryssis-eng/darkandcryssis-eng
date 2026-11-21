@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Динар — @darkandcryssis-eng. Сетевые инструменты и десктоп на Go.">
+  <defs>
+    <radialGradient id="rwash"><stop stop-color="#3423c4"/><stop offset=".55" stop-color="#2a1c96" stop-opacity=".35"/><stop offset="1" stop-color="#2a1c96" stop-opacity="0"/></radialGradient>
+    <filter id="rhalo" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18.6"/></filter>
+    <filter id="rcore" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5.7"/></filter>
+    <clipPath id="clip"><rect width="1280" height="400" rx="36"/></clipPath>
+    <linearGradient id="grid" x1="0" x2="1"><stop stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".05"/></linearGradient>
+    <pattern id="lines" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0V26" stroke="url(#grid)" stroke-width="1"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset=".35" stop-color="#050506"/><stop offset="1" stop-color="#050506" stop-opacity="0"/></linearGradient>
+  </defs>
+  <g clip-path="url(#clip)" font-family="'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">
+    <rect width="1280" height="400" fill="#050506"/>
+    <rect x="560" width="720" height="400" fill="url(#lines)"/>
+  <circle cx="1060" cy="200" r="196" fill="url(#rwash)" opacity=".6"/>
+  <circle cx="1060" cy="200" r="112" fill="#0b0b12"/>
+  <g fill="none" stroke-linecap="round">
+    <circle cx="1060" cy="200" r="112" stroke="#5442ff" stroke-width="29.2" filter="url(#rhalo)"><animate attributeName="opacity" values=".75;1;.75" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" cy="200" r="112" stroke="#7c6cff" stroke-width="15.4" filter="url(#rcore)"/>
+    <circle cx="1060" cy="200" r="112" stroke="#f1efff" stroke-width="8.1"/>
+  </g>
+  <circle cx="1060" cy="200" r="24.3" fill="#7c6cff" filter="url(#rcore)"/>
+  <circle cx="1060" cy="200" r="14.6" fill="#fff"/><g><circle cx="1060" cy="88" r="3.7" fill="#fff" filter="url(#rcore)"/><animateTransform attributeName="transform" type="rotate" from="0 1060 200" to="360 1060 200" dur="9s" repeatCount="indefinite"/></g>
+    <rect width="820" height="400" fill="url(#fade)"/>
+    <text x="72" y="92" font-size="19" font-weight="500" fill="#7c6cff" letter-spacing="1.5">@DARKANDCRYSSIS-ENG</text>
+    <text x="70" y="176" font-size="60" font-weight="600" fill="#f5f5f7" letter-spacing="-2.4">Привет, я Динар</text>
+    <text x="70" y="240" font-size="40" font-weight="600" fill="#6f6f7b" letter-spacing="-1.4">Сетевые инструменты и десктоп на Go</text>
+    <rect x="72" y="300" width="66" height="38" rx="19.0" fill="#121214" stroke="#fff" stroke-opacity=".14"/><circle cx="90" cy="319.0" r="4" fill="#7c6cff"/><text x="104" y="324.4" font-size="15" fill="#d6d6de" font-weight="500">Go</text><rect x="150" y="300" width="134" height="38" rx="19.0" fill="#121214" stroke="#fff" stroke-opacity=".14"/><circle cx="168" cy="319.0" r="4" fill="#7c6cff"/><text x="182" y="324.4" font-size="15" fill="#d6d6de" font-weight="500">TypeScript</text><rect x="296" y="300" width="92" height="38" rx="19.0" fill="#121214" stroke="#fff" stroke-opacity=".14"/><circle cx="314" cy="319.0" r="4" fill="#7c6cff"/><text x="328" y="324.4" font-size="15" fill="#d6d6de" font-weight="500">React</text><rect x="400" y="300" width="92" height="38" rx="19.0" fill="#121214" stroke="#fff" stroke-opacity=".14"/><circle cx="418" cy="319.0" r="4" fill="#7c6cff"/><text x="432" y="324.4" font-size="15" fill="#d6d6de" font-weight="500">Wails</text><rect x="504" y="300" width="108" height="38" rx="19.0" fill="#121214" stroke="#fff" stroke-opacity=".14"/><circle cx="522" cy="319.0" r="4" fill="#7c6cff"/><text x="536" y="324.4" font-size="15" fill="#d6d6de" font-weight="500">Windows</text>
+  </g>
+  <rect x=".5" y=".5" width="1279" height="399" rx="35.5" fill="none" stroke="#fff" stroke-opacity=".09"/>
+</svg>
