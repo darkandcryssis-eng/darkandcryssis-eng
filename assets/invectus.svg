@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-label="Invectus Benchmark — как ИИ-модель видит и правит 3D-геометрию, сравнение с Blender/MCP.">
+  <defs>
+    <radialGradient id="rwash"><stop stop-color="#3423c4"/><stop offset=".55" stop-color="#2a1c96" stop-opacity=".35"/><stop offset="1" stop-color="#2a1c96" stop-opacity="0"/></radialGradient>
+    <filter id="rhalo" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="21.3"/></filter>
+    <filter id="rcore" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="6.5"/></filter>
+    <clipPath id="clip"><rect width="1280" height="220" rx="32"/></clipPath>
+    <linearGradient id="grid" x1="0" x2="1"><stop stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".05"/></linearGradient>
+    <pattern id="lines" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0V26" stroke="url(#grid)" stroke-width="1"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset=".35" stop-color="#050506"/><stop offset="1" stop-color="#050506" stop-opacity="0"/></linearGradient>
+  </defs>
+  <g clip-path="url(#clip)" font-family="'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">
+    <rect width="1280" height="220" fill="#050506"/>
+    <rect x="620" width="660" height="220" fill="url(#lines)"/>
+    <g transform="translate(1090 110)" fill="none" stroke="#7c6cff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <circle r="120" fill="url(#rwash)" stroke="none" opacity=".5"/>
+      <path d="M0 -70 61 -35 61 35 0 70 -61 35 -61 -35Z" stroke="#f1efff"/>
+      <path d="M0 -70 0 0 61 35M0 0 -61 35M-61 -35 0 0 61 -35" stroke-opacity=".55"/>
+      <path d="M0 70 0 0" stroke-opacity=".55"/>
+      <g fill="#fff" stroke="none"><circle cy="-70" r="4"/><circle cx="61" cy="-35" r="4"/><circle cx="61" cy="35" r="4"/><circle cy="70" r="4"/><circle cx="-61" cy="35" r="4"/><circle cx="-61" cy="-35" r="4"/><circle r="5" fill="#7c6cff"/></g>
+    </g>
+    <rect width="860" height="220" fill="url(#fade)"/>
+    <text x="64" y="76" font-size="25" font-weight="600" fill="#f5f5f7" letter-spacing="-.6">invectus-benchmark</text>
+    <text x="64" y="116" font-size="19" fill="#a9a9b4">Бенчмарк: как ИИ-модель видит и правит 3D-геометрию.</text>
+    <text x="64" y="144" font-size="19" fill="#a9a9b4">Сравнение с Blender/MCP на одной задаче и одном бюджете правок.</text>
+    <rect x="64" y="164" width="104" height="34" rx="17.0" fill="#121214" stroke="#fff" stroke-opacity=".14"/><circle cx="82" cy="181.0" r="4" fill="#7c6cff"/><text x="96" y="186.4" font-size="14" fill="#d6d6de" font-weight="500">3D-меши</text><rect x="180" y="164" width="104" height="34" rx="17.0" fill="#121214" stroke="#fff" stroke-opacity=".14"/><circle cx="198" cy="181.0" r="4" fill="#7c6cff"/><text x="212" y="186.4" font-size="14" fill="#d6d6de" font-weight="500">Blender</text><rect x="296" y="164" width="73" height="34" rx="17.0" fill="#121214" stroke="#fff" stroke-opacity=".14"/><circle cx="314" cy="181.0" r="4" fill="#7c6cff"/><text x="328" y="186.4" font-size="14" fill="#d6d6de" font-weight="500">MCP</text>
+  </g>
+  <rect x=".5" y=".5" width="1279" height="219" rx="31.5" fill="none" stroke="#fff" stroke-opacity=".09"/>
+</svg>
